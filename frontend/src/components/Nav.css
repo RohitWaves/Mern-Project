@@ -1,0 +1,39 @@
+/* Nav.css */
+nav {
+    background-color: #4a4e69; /* Dark gray-blue background */
+    padding: 15px 30px; /* Padding for top/bottom and left/right */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Flexbox for horizontal alignment */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+li {
+    margin: 0 20px; /* Spacing between items */
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: #f2e9e4; /* Light color for links */
+    font-weight: 500; /* Medium weight */
+    font-size: 1.1rem; /* Slightly larger font size */
+    transition: color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+a:hover {
+    color: #ffca3a; /* Change color on hover */
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+/* Optional: Add a logo or title on the left side */
+.logo {
+    font-size: 1.5rem; /* Larger font for logo/title */
+    color: #f2e9e4; /* Light color */
+}
