@@ -36,4 +36,7 @@ a:hover {
 .logo {
     font-size: 1.5rem; /* Larger font for logo/title */
     color: #f2e9e4; /* Light color */
+    margin-right: auto; /* Pushes the logo to the left */
+    display: flex; /* Use flexbox to center the logo vertically */
+    align-items: center; /* Center vertically */
 }

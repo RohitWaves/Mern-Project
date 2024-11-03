@@ -1,0 +1,45 @@
+/* SignUp.css */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f4f8; /* Light background color */
+    font-family: Arial, sans-serif; /* Font style */
+}
+
+h1 {
+    color: #4a4e69; /* Dark color for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+input {
+    width: 300px; /* Fixed width for inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin: 10px 0; /* Margin above and below inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+input:focus {
+    border-color: #4a4e69; /* Dark color when focused */
+    outline: none; /* Remove outline */
+}
+
+button {
+    width: 320px; /* Slightly wider button */
+    padding: 10px; /* Padding inside button */
+    background-color: #4a4e69; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #2a2e38; /* Darker color on hover */
+}
